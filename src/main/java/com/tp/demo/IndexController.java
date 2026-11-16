@@ -8,6 +8,6 @@ import java.util.*;
 public class IndexController{
     @GetMapping("/hello")
     public Map<String,String> index(){
-        return Map.of("msg","Hello Devops!");
+        return Map.of("msg","Greatings Devops!");
     }
 }

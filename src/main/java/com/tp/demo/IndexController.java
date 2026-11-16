@@ -10,4 +10,8 @@ public class IndexController{
     public Map<String,String> index(){
         return Map.of("msg","Hello Devops!");
     }
+    @GetMapping("/version")
+    public String version(){
+        return "1.0.0";
+    }
 }

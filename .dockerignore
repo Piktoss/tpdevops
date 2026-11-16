@@ -1,0 +1,43 @@
+# Version control
+.git/
+.gitignore
+.gitattributes
+
+# Local build output (build the application inside Docker)
+target/
+build/
+dist/
+*.class
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+.classpath
+.project
+.settings/
+.factorypath
+.apt_generated/
+.springBeans
+.sts4-cache/
+nbproject/private/
+nbbuild/
+nbdist/
+.nb-gradle/
+
+# Logs and JVM crash reports
+*.log
+hs_err_pid*
+replay_pid*
+
+# Local environment files
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# Operating system files
+.DS_Store
+Thumbs.db
